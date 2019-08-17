@@ -1,0 +1,5 @@
+name = input("Enter your name here")
+age = input("Enter your age")
+print("Welcome", name)
+print("your age is",age)
+print("after 5 years your age will be",age+5)
