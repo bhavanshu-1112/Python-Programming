@@ -1,0 +1,12 @@
+from numpy import *
+arr = array([[1,2,3],[4,5,6]])
+print(arr.ndim)
+print(arr.dtype)
+print(arr.size)
+print(arr.shape)
+arr1 = arr.flatten()
+print(arr1)
+arr2 = arr1.reshape(3,2)
+print(arr2)
+arr3 = arr.reshape(3,2)
+print(arr3)
